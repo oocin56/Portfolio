@@ -1,0 +1,95 @@
+footer{
+  width: 100%;
+  background-color: rgb(29, 147, 220);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.6px;
+  position: relative;
+}
+.collab-container{
+  width: 85%;
+  height: 150px;
+  border-radius: 15px;
+  background-color: #141C3A;
+  position: absolute;
+  top: -80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: white;
+  letter-spacing: 0.6px;
+  text-align: center;
+  align-items: center;
+  font-size: 18px;
+}
+.collab-button{
+  border-color: #5BE9B9;
+  color: white;
+}
+.collab-button:hover{
+  background-color: #5BE9B9;
+  color: #141C3A;
+}
+.collab-title{
+  font-size: 35px;
+  font-weight: 800;
+}
+
+.logo-footer-container{
+  height: 200px;
+  width: 200px;
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.footer-slogan{
+  font-size: 30px;
+  height: 100px;
+}
+
+.footer-grid-logo{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 40px;
+}
+.footer-grid{
+  height: 30px;
+  width: 30px;
+  padding: 15px;
+  border: solid 2px rgba(255, 255, 255, 0.756);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.footer-grid:hover{
+  border-color: #5BE9B9;
+}
+.footer-info{
+  margin-top: 50px;
+  height: fit-content;
+  width: 50%;
+  margin-bottom: 20px;
+}
+span:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+.footer-mentions{
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.footer-mentions:hover{
+  text-decoration: underline;
+}
+
+.footer-logo{
+  filter: invert(100%);
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}

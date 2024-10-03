@@ -1,0 +1,107 @@
+.testimonials-container{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  letter-spacing: 0.6;
+  margin-bottom: 200px;
+}
+
+.testimonials-title{
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.slider-wrapper{
+  margin-top: 85px;
+  width: 700px;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 80px;
+}
+.slide{
+  width: 50%;
+  transition: ease 0.6s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider-nav{
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+}
+.dot{
+  height: 10px;
+  width: 10px;
+  border: solid 1px rgb(192, 192, 192);
+  border-radius: 10px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: transparent;
+}
+.dot:hover{
+  background-color: rgb(223, 223, 223);
+}
+.dot1:checked {
+  background-color: yellow;
+}
+
+.slider-wrapper input {
+  display: none;
+}
+
+
+
+.slider{
+  width: 200%;
+  display: flex;
+  height: 100%;
+  transition: ease 0.6s;
+}
+
+
+#r1:checked ~ .slider{
+  margin-left: 0;
+}
+#r2:checked ~ .slider{
+  margin-left: -100%;
+}
+
+#r1:checked ~ .slider-nav label:nth-child(1) {
+background-color: rgb(29, 147, 220);
+border-color: rgb(29, 147, 220);
+}
+#r2:checked ~ .slider-nav label:nth-child(2) {
+background-color: rgb(29, 147, 220);
+border-color: rgb(29, 147, 220);
+}
+
+.avis-photo{
+  height: 100px;
+  width: 100px;
+  background-color: lightcoral;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.photo{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+
+}
+.avis{
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: 200;
+  font-size: 25px;
+}
+.avis-name{
+  font-weight: 600;
+}
